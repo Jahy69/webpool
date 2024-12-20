@@ -1,0 +1,7 @@
+displayThisText(typeof undefined)
+displayThisText(typeof true)
+displayThisText(typeof 42)
+displayThisText(typeof BigInt(4222222222222222222222222222222222222222222222222222))
+displayThisText(typeof Symbol("42"))
+displayThisText(typeof {})
+displayThisText(typeof ( ()=>""))
