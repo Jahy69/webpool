@@ -1,0 +1,19 @@
+.splide{
+    height: 100vh;
+    margin-top: 15vh;
+}
+
+.splide__slide.is-active img {
+    transform: scale(1.2); /* Increase size for center image */
+    z-index: 10;            /* Bring center image to the top */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.splide__slide img {
+    transition: transform 0.3s ease; /* Make all images smoothly transition */
+    width: auto;
+    /* height: 25vh; */
+    z-index: 1;
+    position: relative;
+    /* margin: 0 35vw; */
+}
